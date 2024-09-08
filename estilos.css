@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    align-items: center;
+    padding: 20px; 
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+#character-id{
+    width: 70%;
+    height: 30px;
+    border-radius: 10px;
+    font-size: x-large;
+    padding-left: 15px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#search-button{
+    width: 40%;
+    height: 30px;
+    border-radius: 10px;
+    margin-top: 15px;
+    font-size: larger;
+    align-items: center;
+}
+
+#show-info{
+    width: 80%;
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    padding: 10px;
+    margin-top: 20px;
+    text-align: center;
+
+    
+}
